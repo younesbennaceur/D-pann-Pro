@@ -1,0 +1,95 @@
+import React from 'react';
+import { MapPin, Phone, Mail, Facebook, Instagram, Linkedin } from 'lucide-react';
+
+const Footer = () => {
+  return (
+    <footer className="bg-[#0a0a0a] text-gray-400 font-sans pt-16 pb-8 border-t border-gray-900">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+        
+        {/* Grille principale du Footer */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-16">
+          
+          {/* Colonne 1 : Marque et présentation */}
+          <div className="space-y-6">
+            <div className="flex items-center gap-2">
+              <img src="/logo.png" alt="Dépann Pro Logo" className="h-8" />
+              
+            </div>
+            <p className="text-gray-400 text-sm leading-relaxed max-w-sm">
+              Le spécialiste du dépannage et remorquage automobile premium. Intervention rapide 24h/24 et 7j/7 partout en région.
+            </p>
+            <div className="flex items-center gap-4">
+              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-[#FF5A00] hover:text-white transition-all duration-300">
+                <Facebook size={18} />
+              </a>
+              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-[#FF5A00] hover:text-white transition-all duration-300">
+                <Instagram size={18} />
+              </a>
+              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-[#FF5A00] hover:text-white transition-all duration-300">
+                <Linkedin size={18} />
+              </a>
+            </div>
+          </div>
+
+          {/* Colonne 2 : Navigation */}
+          <div>
+            <h3 className="text-white font-bold text-lg mb-6 tracking-wide">Navigation</h3>
+            <ul className="space-y-4 text-sm">
+              <li><a href="#" className="hover:text-[#FF5A00] transition-colors">Accueil</a></li>
+              <li><a href="#" className="hover:text-[#FF5A00] transition-colors">Nos Services</a></li>
+              <li><a href="#" className="hover:text-[#FF5A00] transition-colors">Zone d'intervention</a></li>
+              <li><a href="#" className="hover:text-[#FF5A00] transition-colors">Tarifs</a></li>
+              <li><a href="#" className="hover:text-[#FF5A00] transition-colors">À propos</a></li>
+            </ul>
+          </div>
+
+          {/* Colonne 3 : Contact */}
+          <div>
+            <h3 className="text-white font-bold text-lg mb-6 tracking-wide">Contact</h3>
+            <ul className="space-y-5 text-sm">
+              <li className="flex items-start gap-3">
+                <MapPin size={20} className="text-[#FF5A00] shrink-0 mt-0.5" />
+                <span className="leading-relaxed">123 Avenue de la République,<br />75011 Paris</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <Phone size={18} className="text-[#FF5A00] shrink-0" />
+                <span>0800 123 456</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <Mail size={18} className="text-[#FF5A00] shrink-0" />
+                <span>contact@depannpro.fr</span>
+              </li>
+            </ul>
+          </div>
+
+          {/* Colonne 4 : Urgence / CTA */}
+          <div className="bg-[#FF5A00] rounded-2xl p-6 lg:p-8 text-white shadow-xl shadow-[#FF5A00]/10 flex flex-col justify-center">
+            <h3 className="font-bold text-2xl mb-3 leading-tight">Urgence<br />dépannage ?</h3>
+            <p className="text-white/90 text-sm mb-6 leading-relaxed">
+              Nos équipes sont prêtes à intervenir immédiatement.
+            </p>
+            <a href="tel:0800123456" className="w-full">
+              <button className="w-full bg-white text-[#FF5A00] font-bold py-3.5 px-4 rounded-lg text-sm hover:bg-gray-50 transition-colors shadow-sm transform hover:-translate-y-0.5 duration-300">
+                Appeler le 0800 123 456
+              </button>
+            </a>
+          </div>
+
+        </div>
+
+        {/* Ligne de séparation */}
+        <div className="border-t border-white/10 pt-8 mt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs">
+          <p>© 2026 Dépann Pro. Tous droits réservés.</p>
+          <div className="flex items-center gap-6">
+            <a href="#" className="hover:text-white transition-colors">Mentions légales</a>
+            <a href="#" className="hover:text-white transition-colors">Politique de confidentialité</a>
+            <a href="#" className="hover:text-white transition-colors">CGV</a>
+          </div>
+        </div>
+        
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
