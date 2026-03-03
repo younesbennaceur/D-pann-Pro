@@ -1,5 +1,6 @@
 import React from 'react';
 import { MapPin, Phone, Mail, Facebook, Instagram, Linkedin } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -18,28 +19,17 @@ const Footer = () => {
             <p className="text-gray-400 text-sm leading-relaxed max-w-sm">
               Le spécialiste du dépannage et remorquage automobile premium. Intervention rapide 24h/24 et 7j/7 partout en région.
             </p>
-            <div className="flex items-center gap-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-[#FF5A00] hover:text-white transition-all duration-300">
-                <Facebook size={18} />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-[#FF5A00] hover:text-white transition-all duration-300">
-                <Instagram size={18} />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-[#FF5A00] hover:text-white transition-all duration-300">
-                <Linkedin size={18} />
-              </a>
-            </div>
+          
           </div>
 
           {/* Colonne 2 : Navigation */}
           <div>
             <h3 className="text-white font-bold text-lg mb-6 tracking-wide">Navigation</h3>
             <ul className="space-y-4 text-sm">
-              <li><a href="#" className="hover:text-[#FF5A00] transition-colors">Accueil</a></li>
-              <li><a href="#" className="hover:text-[#FF5A00] transition-colors">Nos Services</a></li>
-              <li><a href="#" className="hover:text-[#FF5A00] transition-colors">Zone d'intervention</a></li>
-              <li><a href="#" className="hover:text-[#FF5A00] transition-colors">Tarifs</a></li>
-              <li><a href="#" className="hover:text-[#FF5A00] transition-colors">À propos</a></li>
+              <li><Link to="/" className="hover:text-[#FF5A00] transition-colors">Accueil</Link></li>
+              <li><Link to="/services" className="hover:text-[#FF5A00] transition-colors">Nos Services</Link></li>
+              <li><Link to="/services" className="hover:text-[#FF5A00] transition-colors">Tarifs</Link></li>
+              <li><Link to="/about" className="hover:text-[#FF5A00] transition-colors">À propos</Link></li>
             </ul>
           </div>
 
@@ -53,12 +43,9 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-[#FF5A00] shrink-0" />
-                <span>0800 123 456</span>
+                <span>06 52 59 18 20</span>
               </li>
-              <li className="flex items-center gap-3">
-                <Mail size={18} className="text-[#FF5A00] shrink-0" />
-                <span>contact@depannpro.fr</span>
-              </li>
+             
             </ul>
           </div>
 
@@ -68,9 +55,9 @@ const Footer = () => {
             <p className="text-white/90 text-sm mb-6 leading-relaxed">
               Nos équipes sont prêtes à intervenir immédiatement.
             </p>
-            <a href="tel:0800123456" className="w-full">
+            <a href="tel:0652591820" className="w-full">
               <button className="w-full bg-white text-[#FF5A00] font-bold py-3.5 px-4 rounded-lg text-sm hover:bg-gray-50 transition-colors shadow-sm transform hover:-translate-y-0.5 duration-300">
-                Appeler le 0800 123 456
+                Appeler le 0652591820
               </button>
             </a>
           </div>
@@ -80,11 +67,7 @@ const Footer = () => {
         {/* Ligne de séparation */}
         <div className="border-t border-white/10 pt-8 mt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs">
           <p>© 2026 Dépann Pro. Tous droits réservés.</p>
-          <div className="flex items-center gap-6">
-            <a href="#" className="hover:text-white transition-colors">Mentions légales</a>
-            <a href="#" className="hover:text-white transition-colors">Politique de confidentialité</a>
-            <a href="#" className="hover:text-white transition-colors">CGV</a>
-          </div>
+         
         </div>
         
       </div>

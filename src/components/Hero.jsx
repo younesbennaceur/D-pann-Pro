@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { MapPin, Navigation, ChevronDown, Phone, Info, ArrowRight, Truck } from 'lucide-react';
 import EstimationForm
  from './Estimation';
+import { Link } from 'react-router-dom';
 const HeroSection = () => {
  
 
@@ -62,16 +63,17 @@ const HeroSection = () => {
 
           {/* CTA Buttons avec interactions enrichies */}
           <div className={`flex flex-col sm:flex-row gap-5 transition-all duration-1000 delay-500 transform ${mounted ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-            <button className="group relative bg-[#FF5A00] text-white px-8 py-4 rounded-xl font-bold transition-all duration-300 overflow-hidden shadow-[0_0_20px_rgba(255,90,0,0.3)] hover:shadow-[0_0_30px_rgba(255,90,0,0.5)] transform hover:-translate-y-1 flex items-center justify-center gap-3">
+            <a href="tel:0652591820" className="group relative bg-[#FF5A00] text-white px-8 py-4 rounded-xl font-bold transition-all duration-300 overflow-hidden shadow-[0_0_20px_rgba(255,90,0,0.3)] hover:shadow-[0_0_30px_rgba(255,90,0,0.5)] transform hover:-translate-y-1 flex items-center justify-center gap-3">
               <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:animate-[shimmer_1.5s_infinite]" />
               <Phone size={20} className="animate-bounce-slight" />
               <span>Appeler d'urgence</span>
-            </button>
-            
+            </a>
+                <Link to="/services">
             <button className="group bg-white/10 hover:bg-white text-white hover:text-gray-900 border border-white/20 hover:border-white px-8 py-4 rounded-xl font-bold transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-2 backdrop-blur-sm">
               <span>Voir nos tarifs</span>
               <ArrowRight size={18} className="transform group-hover:translate-x-1 transition-transform" />
             </button>
+            </Link>
           </div>
         </div>
 

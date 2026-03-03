@@ -7,7 +7,7 @@ const servicesList = [
     id: 1,
     title: "Dépannage Véhicule Léger",
     description: "Assistance complète pour voitures de tourisme, SUV et utilitaires légers. Panne de batterie, ouverture de portière, crevaison ou erreur de carburant.",
-    image: "https://images.unsplash.com/photo-1605649487212-4d4ce3e30f10?q=80&w=800&auto=format&fit=crop",
+    image: "/2.jpeg",
     icon: <Truck size={20} />,
     features: ["Intervention < 30 min", "Toutes marques", "Réparation sur place possible"],
     priceLabel: "À partir de 90€"
@@ -25,7 +25,7 @@ const servicesList = [
     id: 3,
     title: "Remorquage Longue Distance",
     description: "Transport de votre véhicule vers le garage de votre choix, votre domicile ou un lieu de stockage, quelle que soit la distance.",
-    image: "https://images.unsplash.com/photo-1542282088-fe8426682b8f?q=80&w=800&auto=format&fit=crop",
+    image: "/1.jpeg",
     icon: <MapPin size={20} />,
     features: ["Toute la France", "Véhicule de remplacement", "Suivi en temps réel"],
     priceLabel: "Sur devis (Forfait + Km)"
@@ -34,7 +34,7 @@ const servicesList = [
     id: 4,
     title: "Assistance Accident",
     description: "Prise en charge complète après un accident : sécurisation de la zone, remorquage, photos pour assurance et aide aux démarches.",
-    image: "https://images.unsplash.com/photo-1600662657416-5bc4f494bc25?q=80&w=800&auto=format&fit=crop",
+    image: "/3.jpeg",
     icon: <ShieldAlert size={20} />,
     features: ["Nettoyage chaussée", "Stockage sécurisé", "Lien direct assurance"],
     priceLabel: "Prise en charge Assurance"
@@ -52,7 +52,7 @@ const servicesList = [
     id: 6,
     title: "Sortie de Fourrière",
     description: "Nous récupérons votre véhicule en fourrière si vous ne pouvez pas vous déplacer (panne, absence de permis valide, etc).",
-    image: "https://images.unsplash.com/photo-1486262715619-670810a0445f?q=80&w=800&auto=format&fit=crop",
+    image: "/4.jpeg",
     icon: <Key size={20} />,
     features: ["Gestion administrative", "Avance de frais possible", "Livraison à domicile"],
     priceLabel: "À partir de 120€"

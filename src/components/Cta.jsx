@@ -1,5 +1,6 @@
 import React from 'react';
 import { PhoneCall } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const CallToAction = () => {
   return (
@@ -32,18 +33,18 @@ const CallToAction = () => {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
           
           {/* Bouton Primaire (Appel) */}
-          <a href="tel:0800123456" className="w-full sm:w-auto">
+          <a href="tel:0652591820" className="w-full sm:w-auto">
             <button className="w-full bg-[#FF5A00] hover:bg-[#e04f00] text-white px-8 py-4 rounded-xl font-bold transition-all duration-300 shadow-lg shadow-[#FF5A00]/30 transform hover:-translate-y-1 flex items-center justify-center gap-2">
-              Appeler le 0800 123 456
+              Appeler le 0652591820
             </button>
           </a>
 
           {/* Bouton Secondaire (Devis) */}
-          <a href="#devis" className="w-full sm:w-auto">
+          <Link to="/" className="w-full sm:w-auto">
             <button className="w-full bg-white hover:bg-gray-50 text-gray-900 border border-gray-200 hover:border-gray-300 px-8 py-4 rounded-xl font-bold transition-all duration-300 shadow-sm hover:shadow-md transform hover:-translate-y-1 flex items-center justify-center">
-              Demander un devis en ligne
+              Estimer mon dépannage
             </button>
-          </a>
+          </Link>
           
         </div>
       </div>

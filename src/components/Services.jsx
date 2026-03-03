@@ -6,7 +6,7 @@ const servicesData = [
     id: 1,
     title: "Dépannage Véhicule Léger",
     description: "Assistance complète pour voitures de tourisme, SUV et utilitaires légers. Panne de batterie, erreur de carburant...",
-    image: "https://images.unsplash.com/photo-1605649487212-4d4ce3e30f10?q=80&w=800&auto=format&fit=crop", 
+    image: "/2.jpeg", 
     icon: <Truck size={24} />
   },
   {
@@ -20,14 +20,14 @@ const servicesData = [
     id: 3,
     title: "Remorquage Longue Distance",
     description: "Transport de votre véhicule vers le garage de votre choix, votre domicile ou un lieu de stockage, partout en France.",
-    image: "https://images.unsplash.com/photo-1542282088-fe8426682b8f?q=80&w=800&auto=format&fit=crop",
+    image: "/1.jpeg",
     icon: <Key size={24} />
   },
   {
     id: 4,
     title: "Assistance Accident",
     description: "Prise en charge complète après un accident : sécurisation de la zone, remorquage, et aide aux démarches immédiates.",
-    image: "https://images.unsplash.com/photo-1600662657416-5bc4f494bc25?q=80&w=800&auto=format&fit=crop",
+    image: "/3.jpeg",
     icon: <Car size={24} />
   },
   {
@@ -41,7 +41,7 @@ const servicesData = [
     id: 6,
     title: "Mécanique Légère sur Place",
     description: "Diagnostic rapide et réparations mineures (changement de roue, batterie, ampoules) pour vous remettre en route sans remorquage.",
-    image: "https://images.unsplash.com/photo-1486262715619-670810a0445f?q=80&w=800&auto=format&fit=crop",
+    image: "4.jpeg",
     icon: <Wrench size={24} />
   }
 ];

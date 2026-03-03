@@ -335,7 +335,7 @@ const AboutPage = () => {
               
               <div className="flex flex-col sm:flex-row justify-center gap-4">
                 <button className="bg-white text-[#FF5A00] hover:bg-gray-50 px-8 py-4 rounded-xl font-bold transition-transform hover:-translate-y-1">
-                  Demander un devis
+                  Estimer mon dépannage
                 </button>
                 <a href="tel:0800123456">
                   <button className="bg-[#0a0a0a] text-white hover:bg-gray-900 px-8 py-4 rounded-xl font-bold transition-transform hover:-translate-y-1 flex items-center justify-center gap-2 w-full sm:w-auto">

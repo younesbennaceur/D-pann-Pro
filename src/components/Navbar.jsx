@@ -71,7 +71,7 @@ const Navbar = () => {
 
           {/* --- CTA (Desktop) --- */}
           <div className="hidden lg:flex items-center gap-6">
-            <a href="tel:0800123456" className="flex items-center gap-3 group cursor-pointer">
+            <a href="tel:0652591820" className="flex items-center gap-3 group cursor-pointer">
               <div className="bg-[#FF5A00]/10 p-2.5 rounded-full text-[#FF5A00] group-hover:bg-[#FF5A00] group-hover:text-white transition-all duration-300">
                 <Phone size={18} />
               </div>
@@ -80,7 +80,7 @@ const Navbar = () => {
                   Urgence 24/7
                 </span>
                 <span className="text-white font-bold text-lg leading-none">
-                  0800 123 456
+                  06 52 59 18 20
                 </span>
               </div>
             </a>
@@ -136,11 +136,11 @@ const Navbar = () => {
               {/* CTA Mobile */}
               <div className="pt-6 px-4 space-y-4">
                 <a 
-                  href="tel:0800123456" 
+                  href="tel:0652591820" 
                   className="flex items-center justify-center gap-3 w-full bg-gray-800 hover:bg-gray-700 text-white py-4 rounded-lg transition-colors"
                 >
                   <Phone size={20} className="text-[#FF5A00]" />
-                  <span className="font-bold text-lg">0800 123 456</span>
+                  <span className="font-bold text-lg">06 52 59 18 20</span>
                 </a>
                 
                 <Link to="/#estimation" onClick={closeMenu} className="block">
