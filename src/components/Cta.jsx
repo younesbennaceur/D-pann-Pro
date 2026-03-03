@@ -39,7 +39,7 @@ const CallToAction = () => {
             </button>
           </a>
 
-          {/* Bouton Secondaire (Devis) */}
+          
           <Link to="/" className="w-full sm:w-auto">
             <button className="w-full bg-white hover:bg-gray-50 text-gray-900 border border-gray-200 hover:border-gray-300 px-8 py-4 rounded-xl font-bold transition-all duration-300 shadow-sm hover:shadow-md transform hover:-translate-y-1 flex items-center justify-center">
               Estimer mon dépannage
