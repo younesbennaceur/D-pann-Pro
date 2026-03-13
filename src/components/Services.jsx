@@ -20,14 +20,14 @@ const servicesData = [
     id: 3,
     title: "Remorquage Longue Distance",
     description: "Transport de votre véhicule vers le garage de votre choix, votre domicile ou un lieu de stockage, partout en France.",
-    image: "/1.jpeg",
+    image: "/1.png",
     icon: <Key size={24} />
   },
   {
     id: 4,
     title: "Assistance Accident",
     description: "Prise en charge complète après un accident : sécurisation de la zone, remorquage, et aide aux démarches immédiates.",
-    image: "/3.jpeg",
+    image: "/3.png",
     icon: <Car size={24} />
   },
   {
@@ -41,7 +41,7 @@ const servicesData = [
     id: 6,
     title: "Mécanique Légère sur Place",
     description: "Diagnostic rapide et réparations mineures (changement de roue, batterie, ampoules) pour vous remettre en route sans remorquage.",
-    image: "4.jpeg",
+    image: "/4.png",
     icon: <Wrench size={24} />
   }
 ];

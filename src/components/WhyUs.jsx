@@ -5,7 +5,7 @@ import { Clock, ShieldCheck, Euro, Star, ChevronLeft, ChevronRight, User, Settin
 const sliderImages = [
   "https://images.unsplash.com/photo-1615906655593-ad0386982a0f?q=80&w=1000&auto=format&fit=crop", // Mécanicien souriant
   "https://images.unsplash.com/photo-1530046339160-ce3e530c7d2f?q=80&w=1000&auto=format&fit=crop", // Poignée de main / Confiance
-  "./4.jpeg"  // Dépanneuse en action
+  "./4.png"  // Dépanneuse en action
 ];
 
 const WhyChooseUs = () => {

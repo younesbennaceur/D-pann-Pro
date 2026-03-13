@@ -25,7 +25,7 @@ const servicesList = [
     id: 3,
     title: "Remorquage Longue Distance",
     description: "Transport de votre véhicule vers le garage de votre choix, votre domicile ou un lieu de stockage, quelle que soit la distance.",
-    image: "/1.jpeg",
+    image: "/1.png",
     icon: <MapPin size={20} />,
     features: ["Toute la France", "Véhicule de remplacement", "Suivi en temps réel"],
     priceLabel: "Sur devis (Forfait + Km)"
@@ -34,7 +34,7 @@ const servicesList = [
     id: 4,
     title: "Assistance Accident",
     description: "Prise en charge complète après un accident : sécurisation de la zone, remorquage, photos pour assurance et aide aux démarches.",
-    image: "/3.jpeg",
+    image: "/3.png",
     icon: <ShieldAlert size={20} />,
     features: ["Nettoyage chaussée", "Stockage sécurisé", "Lien direct assurance"],
     priceLabel: "Prise en charge Assurance"
@@ -52,7 +52,7 @@ const servicesList = [
     id: 6,
     title: "Sortie de Fourrière",
     description: "Nous récupérons votre véhicule en fourrière si vous ne pouvez pas vous déplacer (panne, absence de permis valide, etc).",
-    image: "/4.jpeg",
+    image: "/4.png",
     icon: <Key size={20} />,
     features: ["Gestion administrative", "Avance de frais possible", "Livraison à domicile"],
     priceLabel: "À partir de 120€"
